@@ -88,6 +88,9 @@ Estimates assume ~5–6 hours/day.
   - Advanced features: AI recommendations, personalized analytics, detailed stats  
   - Subscription **$4.99/month** or one-time purchase
 
+## 🔒 Repository Visibility
+This project’s implementation is currently hosted in a **private repository** for internal development and deployment.  
+This public README is shared for portfolio purposes only.
 
 ## Getting Started
 ```bash
