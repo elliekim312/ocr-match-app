@@ -9,10 +9,9 @@ A cross-platform mobile app that recognizes text from images and matches it agai
 - **OCR**: ML Kit (on-device), Google Vision API (server-side fallback)  
 - **DB**: PostgreSQL  
 - **Search/Matching**: PostgreSQL FTS + `pg_trgm` + optional embeddings (`pgvector` / Qdrant)   
-- **Storage**: GCS (image uploads)
 - **Containers**: Docker  
 - **CI/CD**: GitHub Actions  
-- **Infra**:  GCP Cloud Run + Cloud SQL (Postgres) or AWS Fargate + RDS  
+- **Infra**: Supabase + Vercel, or GCP Cloud Run + Cloud SQL (Postgres) + GCS, or AWS Fargate + RDS + S3  
 
 # Features
 ## 📱 App Navigation
