@@ -10,8 +10,8 @@ A cross-platform mobile app that recognizes text from images and matches it agai
 - **DB**: PostgreSQL  
 - **Search/Matching**: PostgreSQL FTS + `pg_trgm` + optional embeddings (`pgvector` / Qdrant)   
 - **Containers**: Docker  
-- **CI/CD**: GitHub Actions  
-- **Infra**: Supabase + Vercel, or GCP Cloud Run + Cloud SQL (Postgres) + GCS, or AWS Fargate + RDS + S3  
+- **CI/CD**: Expo Go, EAS Build OR GitHub Actions + Fastlane
+- **Infra**: Supabase (database, auth, storage) + Cloud Run (ML Models) + Cloud Scheduler (Cron jobs) + Sentry (Error Monitoring) OR Cloudeflare (fast image loading)
 
 # Features
 ## 📱 App Navigation
